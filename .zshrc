@@ -100,6 +100,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+export PATH="$HOME/.local/bin:$PATH"
+
 # exa aliases
 alias ll="exa --icons -l"
 alias lla="exa --icons -la"
