@@ -4,7 +4,8 @@ sudo apt update -y
 sudo apt upgrade -y
 
 # Install the basic packages
-sudo apt install -y exa htop curl wget git zsh tmux neofetch micro
+sudo apt install -y exa htop curl wget git zsh tmux neofetch micro ffmpeg python3 python3-pip
+python3 -m pip install setuptools wheel yt-dlp
 
 # Setup the zsh and oh-my-zsh
 sudo chsh -s $(which zsh)
